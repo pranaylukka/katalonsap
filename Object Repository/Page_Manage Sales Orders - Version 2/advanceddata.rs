@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>advanceddata</name>
+   <tag></tag>
+   <elementGuidId>5fd54d8c-6825-42ea-aa70-f74fd66ddb86</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FacetSubSection::AdvancedData-headerTitle&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

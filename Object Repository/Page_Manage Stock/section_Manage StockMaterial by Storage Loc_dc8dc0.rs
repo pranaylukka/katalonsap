@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>section_Manage StockMaterial by Storage Loc_dc8dc0</name>
+   <tag></tag>
+   <elementGuidId>59138ef3-9bb3-4568-a9e9-890c1451c4db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#application-Material-manageStock-component---S1--idPage-sectionsContainer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='application-Material-manageStock-component---S1--idPage-sectionsContainer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>section</value>
+      <webElementGuid>d4c39bc6-688c-444d-aeff-665ebcab9ca7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>application-Material-manageStock-component---S1--idPage-sectionsContainer</value>
+      <webElementGuid>a083cdec-5ade-426d-9c64-f67895c42789</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sapUxAPObjectPageContainer ui-helper-clearfix sapUxAPObjectPageContainerNoBar</value>
+      <webElementGuid>b25ec420-a4c1-4414-bc80-08736db39285</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Manage StockMaterial by Storage LocationAdd Storage LocationAdd Storage LocationSortStorage LocationUnrestricted-Use StockBlocked StockStock in Quality InspectionStd. storage 1 (171A)708.000 PCObject NumberUnrestricted-Use Stock0.000 PCObject NumberBlocked Stock10.000 PCObject NumberStock in Quality Inspection708.000 PCObject Number0.000 PCObject Number10.000 PCObject NumberShow More</value>
+      <webElementGuid>bb27f140-3df0-4846-83ff-88a87ad5eda2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;application-Material-manageStock-component---S1--idPage-sectionsContainer&quot;)</value>
+      <webElementGuid>33462f9d-dce1-4f5a-98f6-00c560066053</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//section[@id='application-Material-manageStock-component---S1--idPage-sectionsContainer']</value>
+      <webElementGuid>de8eb7ee-5348-4f94-a328-f302b1fc211c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='application-Material-manageStock-component---S1--idPage-scroll']/section[2]</value>
+      <webElementGuid>252aee8a-6168-4d74-95e6-59120cdab24d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pin Header'])[1]/following::section[2]</value>
+      <webElementGuid>6e321d8e-e96b-4171-85b7-bb04715f14c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collapse Header'])[1]/following::section[2]</value>
+      <webElementGuid>905855f7-77a2-4696-ae1e-6dd04fd95883</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]</value>
+      <webElementGuid>54c1bcd0-fc3f-4e71-9e34-ba8ff6e33c5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//section[@id = 'application-Material-manageStock-component---S1--idPage-sectionsContainer' and (text() = 'Manage StockMaterial by Storage LocationAdd Storage LocationAdd Storage LocationSortStorage LocationUnrestricted-Use StockBlocked StockStock in Quality InspectionStd. storage 1 (171A)708.000 PCObject NumberUnrestricted-Use Stock0.000 PCObject NumberBlocked Stock10.000 PCObject NumberStock in Quality Inspection708.000 PCObject Number0.000 PCObject Number10.000 PCObject NumberShow More' or . = 'Manage StockMaterial by Storage LocationAdd Storage LocationAdd Storage LocationSortStorage LocationUnrestricted-Use StockBlocked StockStock in Quality InspectionStd. storage 1 (171A)708.000 PCObject NumberUnrestricted-Use Stock0.000 PCObject NumberBlocked Stock10.000 PCObject NumberStock in Quality Inspection708.000 PCObject Number0.000 PCObject Number10.000 PCObject NumberShow More')]</value>
+      <webElementGuid>1db7d67a-b537-467a-b3bb-ca0d66392700</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

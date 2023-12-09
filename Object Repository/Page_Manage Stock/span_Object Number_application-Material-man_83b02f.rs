@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Object Number_application-Material-man_83b02f</name>
+   <tag></tag>
+   <elementGuidId>d24efe2b-173c-4e6d-aad9-771e0657dad3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#application-Material-manageStock-component---S1--idCurrentStockButton-application-Material-manageStock-component---S1--idStorageLocationTable-0-inner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='application-Material-manageStock-component---S1--idCurrentStockButton-application-Material-manageStock-component---S1--idStorageLocationTable-0-inner']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a00057ad-1ad3-4c51-a782-5be68d42a4d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>application-Material-manageStock-component---S1--idCurrentStockButton-application-Material-manageStock-component---S1--idStorageLocationTable-0-inner</value>
+      <webElementGuid>be6a3d00-02f8-4f36-9935-51e836a738cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sapMBtnInner sapMBtnHoverable sapMFocusable sapMBtnIconFirst sapMBtnDefault</value>
+      <webElementGuid>f452ad35-a900-452e-916b-14854c554a21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;application-Material-manageStock-component---S1--idCurrentStockButton-application-Material-manageStock-component---S1--idStorageLocationTable-0-inner&quot;)</value>
+      <webElementGuid>bdf4db61-915f-45d9-aa27-3b0480709c66</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='application-Material-manageStock-component---S1--idCurrentStockButton-application-Material-manageStock-component---S1--idStorageLocationTable-0-inner']</value>
+      <webElementGuid>66b84e20-050f-455c-b305-d47db4272783</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='application-Material-manageStock-component---S1--idCurrentStockButton-application-Material-manageStock-component---S1--idStorageLocationTable-0']/span</value>
+      <webElementGuid>b6f7cbf9-872f-4f98-92d5-fedde01c0460</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Object Number'])[1]/following::span[1]</value>
+      <webElementGuid>1a8cb89b-0e7b-4f71-9ec9-34c8d235f8c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PC'])[1]/following::span[2]</value>
+      <webElementGuid>e7664f38-9282-4682-a21f-69dce993690c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unrestricted-Use Stock'])[3]/preceding::span[2]</value>
+      <webElementGuid>39d8aa57-7764-4d77-b7fd-ab9eb49de90d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PC'])[2]/preceding::span[4]</value>
+      <webElementGuid>9cb98f95-bbe6-401a-8a60-b32bd3da2889</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div/button/span</value>
+      <webElementGuid>1c923ed7-8494-41d2-97bf-e7d26fc28edd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'application-Material-manageStock-component---S1--idCurrentStockButton-application-Material-manageStock-component---S1--idStorageLocationTable-0-inner']</value>
+      <webElementGuid>8e5cd7fa-7b07-4919-bbac-ee0c650f87e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

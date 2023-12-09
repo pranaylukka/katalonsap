@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Manage Sales Orders - Version 2</name>
+   <tag></tag>
+   <elementGuidId>b60fcc2d-7e72-4242-8445-a834313a653e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[text() = 'Manage Sales Orders - Version 2' or . = 'Manage Sales Orders - Version 2'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#__text119</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1153e3fc-179e-46ed-9954-e0ea754343ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>__text119</value>
+      <webElementGuid>7d791262-9713-49ee-9ad9-f7f82f5e853d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-sap-ui</name>
+      <type>Main</type>
+      <value>__text119</value>
+      <webElementGuid>00f7a960-f116-4f91-be71-b9bace59829a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>ecf79bec-1325-4990-a7c2-889de61eb146</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sapMText sapUiSelectable sapMTextNoWrap sapMTextMaxWidth suggestText suggestNavItem suggestListItemCell</value>
+      <webElementGuid>d4f37227-fd7d-4a56-813e-9949f0fbcb33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Manage Sales Orders - Version 2</value>
+      <webElementGuid>488991d6-b773-44d1-ad38-b39efc961b39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__text119&quot;)</value>
+      <webElementGuid>757132db-8b5f-42b5-bd46-a45bfbcc3c58</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

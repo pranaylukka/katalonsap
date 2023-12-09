@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>parters</name>
+   <tag></tag>
+   <elementGuidId>9c0f9b03-faf2-4389-93c0-269038c95f77</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FacetSubSection::SalesOrderHeaderPartner-headerTitle&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

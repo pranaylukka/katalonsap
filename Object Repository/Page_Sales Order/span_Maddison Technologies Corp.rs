@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Maddison Technologies Corp</name>
+   <tag></tag>
+   <elementGuidId>496c396b-ef48-4e41-9c2b-ab0f26c07523</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[text()='17100004']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>35cc92f0-24f4-4170-aefe-c6780d51e906</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>__text264-cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FormContainer::OrderData::FieldValueHelp::SoldToParty::Popover::qualifier::::SuggestTable-0</value>
+      <webElementGuid>b0128e1c-6d33-42b9-941a-99fca0a06216</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-sap-ui</name>
+      <type>Main</type>
+      <value>__text264-cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FormContainer::OrderData::FieldValueHelp::SoldToParty::Popover::qualifier::::SuggestTable-0</value>
+      <webElementGuid>7b5a1175-b2c8-4354-8615-3f32bcbe9cac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>c0376577-d955-4d65-af0b-3952fd166aa3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sapMText sapUiSelectable sapMTextMaxWidth sapMTextRenderWhitespaceWrap</value>
+      <webElementGuid>ed9f1740-7f4d-467a-814f-4e2d9366702a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Maddison Technologies Corp.</value>
+      <webElementGuid>afa44ef2-13ef-48ee-86d4-0c3e9f488978</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__text264-cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FormContainer::OrderData::FieldValueHelp::SoldToParty::Popover::qualifier::::SuggestTable-0&quot;)</value>
+      <webElementGuid>423611cc-835a-47fa-9695-f72d5505d85c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

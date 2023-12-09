@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Milestone Billing (01)</name>
+   <tag></tag>
+   <elementGuidId>8e0d5bf7-407a-4666-a03f-94617c9bd600</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[text()='Milestone Billing (01)']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#__text292-__clone684</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>819e47cd-d576-4758-95b9-248fcd54b0e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>__text292-__clone684</value>
+      <webElementGuid>f34f83da-d2ce-4d9c-94d9-e02b42cf8f2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-sap-ui</name>
+      <type>Main</type>
+      <value>__text292-__clone684</value>
+      <webElementGuid>f6490488-59e7-47d3-a916-b17fa5715fae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>cdf5bd35-60f3-4fbf-a90f-3d35be2aff2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sapMText sapUiSelectable sapMTextMaxWidth sapMTextRenderWhitespaceWrap</value>
+      <webElementGuid>2aa9e2f0-b4ce-4ece-a0cd-beef15ddd2fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Milestone Billing (01)</value>
+      <webElementGuid>896b89f2-7089-4c97-95d2-22cf1d7d0ed7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__text292-__clone684&quot;)</value>
+      <webElementGuid>8831fb6b-b3ad-4165-a51f-93354bb2158e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

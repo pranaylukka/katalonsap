@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Manage Sales Orders</name>
+   <tag></tag>
+   <elementGuidId>2ef8d6bf-932c-479a-934c-c90f007df520</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.sapUshellAppTitleText</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='shellAppTitle-button']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>abb1457a-d848-4b22-a029-f98f4fa5e4fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sapUshellAppTitleText</value>
+      <webElementGuid>b3426dcb-5a89-4bf3-a2c7-91be713ccc07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Manage Sales Orders</value>
+      <webElementGuid>2ae0d82b-ce60-4b49-84b3-db0449a37504</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shellAppTitle-button&quot;)/span[@class=&quot;sapUshellAppTitleText&quot;]</value>
+      <webElementGuid>99ed66ef-ebad-4470-b700-0a5429bdbf1e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shellAppTitle-button']/span</value>
+      <webElementGuid>86c20c2b-c25f-4c09-a7d0-fd89c15f6dd8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/following::span[1]</value>
+      <webElementGuid>c6a10af0-c0d2-45f9-82dd-4b22dbace197</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Category'])[1]/following::span[13]</value>
+      <webElementGuid>1cd28735-740f-4d73-af91-7bc39466172b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/preceding::span[4]</value>
+      <webElementGuid>b4ea5f9b-cdbd-4e47-a744-1e22dd03c8f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/preceding::span[5]</value>
+      <webElementGuid>9a95c461-2c71-4369-b4f5-7708b6c403e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1/div/span</value>
+      <webElementGuid>52b293f1-7419-4078-9237-ba952f42b88b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Manage Sales Orders' or . = 'Manage Sales Orders')]</value>
+      <webElementGuid>d0e5487f-d6d2-4457-a3b6-6d81e0fdae09</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

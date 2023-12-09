@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Manage Stock</name>
+   <tag></tag>
+   <elementGuidId>4ff5be87-32d1-4535-8548-bfc60371fcc8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.sapUshellAppTitleText</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='shellAppTitle-button']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6b5cc8e6-2e4b-4969-ab1a-be119e9f0edc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sapUshellAppTitleText</value>
+      <webElementGuid>c9816434-c83a-4253-840d-93896356d0cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Manage Stock</value>
+      <webElementGuid>333f04bb-21b1-457b-8a08-125d31858c5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shellAppTitle-button&quot;)/span[@class=&quot;sapUshellAppTitleText&quot;]</value>
+      <webElementGuid>f0702c4c-0b47-46b4-b184-0c6bafbf238d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shellAppTitle-button']/span</value>
+      <webElementGuid>2bec361b-b73c-4e9d-b878-c37324268dc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/following::span[1]</value>
+      <webElementGuid>5737ad22-bf5d-460f-93f0-4d7d3387136d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/preceding::span[4]</value>
+      <webElementGuid>6e866f23-3315-4348-b39b-9b7f78500e15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/preceding::span[5]</value>
+      <webElementGuid>db6386d6-eed0-42fe-b1a2-f3d181b80b10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1/div/span</value>
+      <webElementGuid>93a73452-3dc0-428b-8e2e-c23cac3851e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Manage Stock' or . = 'Manage Stock')]</value>
+      <webElementGuid>5f3ab869-717f-4458-83e7-f67c94748411</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
