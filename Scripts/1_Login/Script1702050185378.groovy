@@ -33,4 +33,5 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Page_SAP Universal
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_SAP Universal ID/input_password'), 'qRDcH7iq2Vu9Bt71lzjg0Q==')
 
 WebUI.click(findTestObject('Object Repository/Page_SAP Universal ID/button_Sign in'))
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Home/span_Home'),10000)
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Home/span_Home'), 'Home')

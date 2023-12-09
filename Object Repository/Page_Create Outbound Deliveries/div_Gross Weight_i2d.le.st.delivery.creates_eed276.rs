@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Gross Weight_i2d.le.st.delivery.creates_eed276</name>
+   <tag></tag>
+   <elementGuidId>541e13fe-2128-4c0e-a972-3a80040c38a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='CheckBox']/parent::div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e2d7c713-b6d3-49be-a410-a108dc3be2bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>i2d.le.st.delivery.create::sap.suite.ui.generic.template.ListReport.view.ListReport::C_OutboundDeliveryCreate--template:::ListReportTable:::ColumnListItem-__clone404-selectMulti-CbBg</value>
+      <webElementGuid>2eb4e1a2-0136-42b2-acb1-90842f83df79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sapMCbBg sapMCbHoverable sapMCbActiveStateOff sapMCbMark</value>
+      <webElementGuid>571420d2-9018-47bf-b0d6-b0f5dd9b0b7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;i2d.le.st.delivery.create::sap.suite.ui.generic.template.ListReport.view.ListReport::C_OutboundDeliveryCreate--template:::ListReportTable:::ColumnListItem-__clone404-selectMulti-CbBg&quot;)</value>
+      <webElementGuid>728cc740-2321-4bcf-a372-b2603a80e475</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

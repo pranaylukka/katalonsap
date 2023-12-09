@@ -22,6 +22,7 @@ WebUI.callTestCase(findTestCase('2_ManageStock'), [:], FailureHandling.STOP_ON_F
 WebUI.click(findTestObject('Object Repository/Page_Home/span_Manage Sales Orders'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Manage Sales Orders/span_Manage Sales Orders'), 0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Manage Sales Orders/span_Create'),0)
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Sales Orders/span_Create'))
 
@@ -58,6 +59,6 @@ WebUI.click(findTestObject('Object Repository/Page_Sales Order/bdi_Close'))
 orderid=WebUI.getText(findTestObject('Object Repository/Page_Manage Sales Orders - Version 2/extractid'))
 
 println("Order ID:"+orderid)
-
+GlobalVariable.orderID = orderid
 WebUI.click(findTestObject('Object Repository/Page_Sales Order/img__shell-header-icon'))
 
