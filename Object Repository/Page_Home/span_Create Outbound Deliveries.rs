@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Create Outbound Deliveries</name>
+   <tag></tag>
+   <elementGuidId>96fd4be1-119e-476c-8c49-c2528e326a62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#__tile125-title-inner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='__tile125-title-inner']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>580e1ab3-e12a-4c16-8044-9cb5b68231b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>__tile125-title-inner</value>
+      <webElementGuid>14aebf1c-f3bf-4ecf-955f-894dd5fd4a7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sapMTextMaxLine sapMTextLineClamp</value>
+      <webElementGuid>a4bf1d79-136e-4bc8-8222-6b1b4b8df7c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Outbound Deliveries</value>
+      <webElementGuid>668f5d06-5f67-48c5-8b8e-e993511c3a1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__tile125-title-inner&quot;)</value>
+      <webElementGuid>36125d63-bef5-4746-bae1-d63de49b0b08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='__tile125-title-inner']</value>
+      <webElementGuid>e0eb4dd7-c9d3-40df-be5d-7e957bd34c8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='__tile125-title']/span</value>
+      <webElementGuid>9b1b92bc-d6c6-4ae5-bcee-bcbb86aeb5eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='K'])[3]/following::span[2]</value>
+      <webElementGuid>1c8abc57-e414-4a43-b058-e9e2cd08350b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Sales Orders'])[1]/following::span[5]</value>
+      <webElementGuid>c40d5c26-18d9-4c66-8763-2d9dcbb419be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='From Sales Orders'])[1]/preceding::span[1]</value>
+      <webElementGuid>5258f8cc-58f7-43c2-84e8-c66a0c8f1342</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pick Outbound Delivery'])[1]/preceding::span[3]</value>
+      <webElementGuid>5c0c9a4c-5d11-414b-96ba-2763440ea716</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create Outbound Deliveries']/parent::*</value>
+      <webElementGuid>73190e66-1abe-41a2-8bf9-669f2d60970b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div/div[4]/div/div[4]/div/div/div/div/a/div/div/span/span</value>
+      <webElementGuid>a31aa367-caab-496c-970a-e36a28b892ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = '__tile125-title-inner' and (text() = 'Create Outbound Deliveries' or . = 'Create Outbound Deliveries')]</value>
+      <webElementGuid>6b8b2f2e-1f26-4bed-a562-d7c08e54f813</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
