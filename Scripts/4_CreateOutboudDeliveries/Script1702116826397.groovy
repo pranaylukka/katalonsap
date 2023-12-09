@@ -56,3 +56,4 @@ print(getdeliveryID)
 
 GlobalVariable.deliveryID = getdeliveryID
 
+WebUI.click(findTestObject('Object Repository/Page_Sales Order/img__shell-header-icon'))

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>bdi_Post GI</name>
+   <tag></tag>
+   <elementGuidId>60731f41-0964-4314-84de-f183dfcf519f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[text()='Post GI']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#__button451-BDI-content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>bdi</value>
+      <webElementGuid>4b5defc0-b53b-4530-90ba-0d85b77d6c03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>__button451-BDI-content</value>
+      <webElementGuid>6ec5eddb-34ca-47e7-9429-0747f5e4d152</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>polite</value>
+      <webElementGuid>520ca6c1-5452-4610-acd8-b5090fc885cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Post GI</value>
+      <webElementGuid>5bc3cffd-8700-4253-8dcf-7463d85f3683</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__button451-BDI-content&quot;)</value>
+      <webElementGuid>d146754a-e6a1-43e1-a1dd-0d744cedf942</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

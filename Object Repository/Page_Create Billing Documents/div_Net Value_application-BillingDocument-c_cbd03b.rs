@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Net Value_application-BillingDocument-c_cbd03b</name>
+   <tag></tag>
+   <elementGuidId>a252c73b-5052-4d25-a219-d55fec94608f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='CheckBox']/parent::div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#application-BillingDocument-create-component---worklist--referenceSDDocumentCategoryColumnListItem-__clone209-selectMulti-CbBg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>31ce3b53-242e-492b-8aa9-49ea75881978</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>application-BillingDocument-create-component---worklist--referenceSDDocumentCategoryColumnListItem-__clone209-selectMulti-CbBg</value>
+      <webElementGuid>b0fba9fe-32e0-4891-9bf5-206d07332141</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sapMCbBg sapMCbHoverable sapMCbActiveStateOff sapMCbMark</value>
+      <webElementGuid>277ee34e-27b8-4b40-a600-5ae4ca39040a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;application-BillingDocument-create-component---worklist--referenceSDDocumentCategoryColumnListItem-__clone209-selectMulti-CbBg&quot;)</value>
+      <webElementGuid>547407fe-29da-49d4-a7fe-b9ad7e8d92cf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
