@@ -14,4 +14,9 @@
       <initValue>''</initValue>
       <name>deliveryID</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>invoiceID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
