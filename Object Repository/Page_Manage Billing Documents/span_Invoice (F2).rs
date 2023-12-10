@@ -6,12 +6,12 @@
    <elementGuidId>df0e604c-63ba-4bb1-9399-c2d2e29ab342</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#application-BillingDocument-manage-component---object--billingDocumentTypeText</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Invoice (F2)']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='application-BillingDocument-manage-component---object--billingDocumentTypeText']</value>
+         <key>CSS</key>
+         <value>#application-BillingDocument-manage-component---object--billingDocumentTypeText</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>fe542ca6-9536-4159-92a3-9f5cb710341b</webElementGuid>
+      <webElementGuid>f41f1b21-cfab-4f3d-bf22-ea93f1100dc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>application-BillingDocument-manage-component---object--billingDocumentTypeText</value>
-      <webElementGuid>107b3abd-47f1-4d16-84cb-82f8f50e58a3</webElementGuid>
+      <webElementGuid>fc8aa6d6-d82f-477e-8e22-598266277c15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-sap-ui</name>
       <type>Main</type>
       <value>application-BillingDocument-manage-component---object--billingDocumentTypeText</value>
-      <webElementGuid>68afb654-1076-4de0-970c-ad963148443c</webElementGuid>
+      <webElementGuid>544bd4f6-45a7-420a-8d6c-0c527f08e5f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>dir</name>
       <type>Main</type>
       <value>auto</value>
-      <webElementGuid>771b11ac-7e81-44af-954f-8e761b562179</webElementGuid>
+      <webElementGuid>8c38f58c-e552-455c-9c08-47bd1e9af262</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sapMText sapUiSelectable sapMTextMaxWidth</value>
-      <webElementGuid>f65abbe8-c1dd-4515-9385-483a70e2b0e3</webElementGuid>
+      <webElementGuid>d027c430-9238-4e6f-8f60-ff8a65ebeed3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Invoice (F2)</value>
-      <webElementGuid>64172d86-a604-4f3f-93f6-0a9a0b212b95</webElementGuid>
+      <webElementGuid>84cd478c-f666-48d1-a5f6-43b01e27c184</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,78 +70,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;application-BillingDocument-manage-component---object--billingDocumentTypeText&quot;)</value>
-      <webElementGuid>36a48bd9-bcaa-4c28-bbea-d495ef88e372</webElementGuid>
+      <webElementGuid>ac3a891c-f32c-4f62-a587-0dac64e2f25e</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//span[@id='application-BillingDocument-manage-component---object--billingDocumentTypeText']</value>
-      <webElementGuid>4105efe0-a93e-4ab2-ad30-428d3b28730e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='application-BillingDocument-manage-component---object--mainGroup1--Grid-wrapperfor-application-BillingDocument-manage-component---object--billingDocumentTypeText']/span</value>
-      <webElementGuid>26341edb-dd49-4e34-8897-694dd9f2aa8a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing Type'])[1]/following::span[2]</value>
-      <webElementGuid>b2d18ad5-e459-49cf-8d0d-fd7f62608a72</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing Date'])[3]/following::span[6]</value>
-      <webElementGuid>c685dcd6-c109-4a8c-afe2-50dceb1070fa</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reference'])[1]/preceding::span[1]</value>
-      <webElementGuid>a51e4e48-66c1-48a4-9041-cd590189a7ba</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='TMP0000091'])[3]/preceding::span[4]</value>
-      <webElementGuid>94622413-b2bc-4efb-96a7-6a15e2d384b6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Invoice (F2)']/parent::*</value>
-      <webElementGuid>51d7b762-ef14-48ad-a51d-7fc6fff345cd</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/div/div[4]/span</value>
-      <webElementGuid>dc1d2a63-862e-48f7-aa5d-ceee20569179</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//span[@id = 'application-BillingDocument-manage-component---object--billingDocumentTypeText' and (text() = 'Invoice (F2)' or . = 'Invoice (F2)')]</value>
-      <webElementGuid>7b5eb9da-4246-4e2d-84c6-30f42c32b777</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

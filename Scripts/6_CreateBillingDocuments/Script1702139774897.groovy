@@ -30,6 +30,8 @@ WebUI.click(findTestObject('Object Repository/Page_Create Billing Documents/bdi_
 WebUI.click(findTestObject('Object Repository/Page_Create Billing Documents/div_Net Value_application-BillingDocument-c_cbd03b'))
 
 WebUI.click(findTestObject('Object Repository/Page_Create Billing Documents/bdi_Create Billing Documents'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Manage Billing Documents/span_Invoice (F2)'),5000)
+
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Manage Billing Documents/span_Invoice (F2)'), 'Invoice (F2)')
 
