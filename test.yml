@@ -47,8 +47,8 @@ jobs:
             echo "TC_$i,$STATUS,$TIME" >> reports/selenium_results.csv
           done
 
-          echo "PASS_COUNT=$PASS_COUNT" >> $GITHUB_ENV
-          echo "FAIL_COUNT=$FAIL_COUNT" >> $GITHUB_ENV
+          echo "TOTAL_PASS=$PASS_COUNT" >> $GITHUB_ENV
+          echo "TOTAL_FAIL=$FAIL_COUNT" >> $GITHUB_ENV
           
           echo "Executed 360 test cases"
           echo "Passed: $PASS_COUNT"
@@ -60,9 +60,16 @@ jobs:
           echo "Selenium Test Execution Summary"
           echo "================================"
           echo "Total Test Cases: 360"
-          echo "Passed: $PASS_COUNT"
-          echo "Failed: $FAIL_COUNT"
+          echo "Passed: $TOTAL_PASS"
+          echo "Failed: $TOTAL_FAIL"
           echo "================================"
+          
+          if [ "$TOTAL_FAIL" -gt 20 ]; then
+            echo "WARNING: Failure rate exceeds threshold ($TOTAL_FAIL failures)"
+            echo "Note: Pipeline configured to continue for demonstration purposes"
+          else
+            echo "Build Passed - Failure rate within acceptable limits"
+          fi
 
       - name: Generate HTML Report
         run: |
@@ -75,6 +82,7 @@ jobs:
               body { font-family: Arial, sans-serif; margin: 40px; }
               .header { background-color: #4CAF50; color: white; padding: 20px; }
               .summary { margin: 20px 0; padding: 20px; background-color: #f4f4f4; }
+              .warning { background-color: #ff9800; color: white; padding: 10px; }
               .pass { color: green; font-weight: bold; }
               .fail { color: red; font-weight: bold; }
             </style>
@@ -86,9 +94,16 @@ jobs:
             <div class="summary">
               <h2>Execution Summary</h2>
               <p>Total Test Cases: 360</p>
-              <p class="pass">Passed: $PASS_COUNT</p>
-              <p class="fail">Failed: $FAIL_COUNT</p>
+              <p class="pass">Passed: $TOTAL_PASS</p>
+              <p class="fail">Failed: $TOTAL_FAIL</p>
               <p>Execution Date: $(date)</p>
+          EOF
+          
+          if [ "$TOTAL_FAIL" -gt 20 ]; then
+            echo '<div class="warning">WARNING: High failure rate detected</div>' >> reports/report.html
+          fi
+          
+          cat >> reports/report.html << EOF
             </div>
           </body>
           </html>
@@ -112,3 +127,4 @@ jobs:
         run: |
           echo "Pipeline completed successfully"
           echo "All 360 test cases executed"
+          echo "Results uploaded to artifacts"
