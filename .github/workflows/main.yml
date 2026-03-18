@@ -1,0 +1,54 @@
+name: Mock Data CI Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  mock-test-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🧪 Generate Mock Data
+        run: |
+          echo "Generating mock test data..."
+          mkdir -p reports
+          echo "TestCase,Status,ResponseTime(ms)" > reports/mock_results.csv
+          
+          for i in {1..20}
+          do
+            STATUS=$((RANDOM % 2))
+            if [ $STATUS -eq 0 ]; then RESULT="PASS"; else RESULT="FAIL"; fi
+            TIME=$((RANDOM % 500 + 100))
+            echo "TC_$i,$RESULT,$TIME" >> reports/mock_results.csv
+          done
+
+      - name: 📊 Print Mock Data
+        run: |
+          echo "Displaying mock results:"
+          cat reports/mock_results.csv
+
+      - name: 📦 Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mock-test-report
+          path: reports/mock_results.csv
+
+      - name: ✅ Simulate Test Summary
+        run: |
+          PASS_COUNT=$(grep -c PASS reports/mock_results.csv)
+          FAIL_COUNT=$(grep -c FAIL reports/mock_results.csv)
+
+          echo "Passed: $PASS_COUNT"
+          echo "Failed: $FAIL_COUNT"
+
+          if [ "$FAIL_COUNT" -gt 5 ]; then
+            echo "Too many failures! ❌"
+            exit 1
+          else
+            echo "Pipeline Success ✅"
+          fi
