@@ -11,33 +11,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Force Success Start
-        run: echo "Starting pipeline - forced success mode"
-
       - name: Checkout Code
-        uses: actions/checkout@v4
-        continue-on-error: true
+        uses: actions/checkout@v5
 
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
-        continue-on-error: true
 
       - name: Setup Chrome Browser
         uses: browser-actions/setup-chrome@v1
-        continue-on-error: true
 
       - name: Initialize Test Environment
         run: |
-          mkdir -p reports screenshots || true
+          mkdir -p reports screenshots
 
       - name: Execute Selenium Test Suite (360 Test Cases)
-        continue-on-error: true   # 🔥 IMPORTANT
+        id: test-execution
         run: |
-          set +e
-
           echo "TestCase,Status,ExecutionTime(ms)" > reports/selenium_results.csv
 
           PASS_COUNT=0
@@ -53,40 +45,74 @@ jobs:
             else
               STATUS="FAIL"
               FAIL_COUNT=$((FAIL_COUNT + 1))
-              echo "mock screenshot" > screenshots/TC_$i.png || true
+              echo "mock screenshot" > screenshots/TC_$i.png
             fi
 
             echo "TC_$i,$STATUS,$TIME" >> reports/selenium_results.csv
           done
 
-          echo "TOTAL_PASS=$PASS_COUNT" >> $GITHUB_ENV || true
-          echo "TOTAL_FAIL=$FAIL_COUNT" >> $GITHUB_ENV || true
+          echo "PASS_COUNT=$PASS_COUNT" >> $GITHUB_ENV
+          echo "FAIL_COUNT=$FAIL_COUNT" >> $GITHUB_ENV
+          
+          echo "Executed 360 test cases"
+          echo "Passed: $PASS_COUNT"
+          echo "Failed: $FAIL_COUNT"
 
-          exit 0
-
-      - name: Generate Summary
+      - name: Generate Execution Summary
         run: |
-          echo "Total: 360"
-          echo "Passed: ${TOTAL_PASS:-0}"
-          echo "Failed: ${TOTAL_FAIL:-0}"
-        continue-on-error: true
+          echo "================================"
+          echo "Selenium Test Execution Summary"
+          echo "================================"
+          echo "Total Test Cases: 360"
+          echo "Passed: $PASS_COUNT"
+          echo "Failed: $FAIL_COUNT"
+          echo "================================"
+
+      - name: Generate HTML Report
+        run: |
+          cat > reports/report.html << EOF
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <title>Selenium Automation Report</title>
+            <style>
+              body { font-family: Arial, sans-serif; margin: 40px; }
+              .header { background-color: #4CAF50; color: white; padding: 20px; }
+              .summary { margin: 20px 0; padding: 20px; background-color: #f4f4f4; }
+              .pass { color: green; font-weight: bold; }
+              .fail { color: red; font-weight: bold; }
+            </style>
+          </head>
+          <body>
+            <div class="header">
+              <h1>Selenium Automation Report</h1>
+            </div>
+            <div class="summary">
+              <h2>Execution Summary</h2>
+              <p>Total Test Cases: <strong>360</strong></p>
+              <p class="pass">Passed: <strong>$PASS_COUNT</strong></p>
+              <p class="fail">Failed: <strong>$FAIL_COUNT</strong></p>
+              <p>Execution Date: $(date)</p>
+            </div>
+          </body>
+          </html>
+          EOF
 
       - name: Upload Reports
         uses: actions/upload-artifact@v4
         with:
           name: selenium-report
           path: reports/
-        continue-on-error: true
+          retention-days: 30
 
       - name: Upload Screenshots
         uses: actions/upload-artifact@v4
         with:
           name: screenshots
           path: screenshots/
-        continue-on-error: true
+          retention-days: 30
 
-      - name: Force Success End
-        if: always()   # 🔥 CRITICAL FIX
+      - name: Pipeline Completion Status
         run: |
-          echo "Overriding any failure"
-          exit 0
+          echo "Pipeline completed successfully"
+          echo "All 360 test cases executed"
