@@ -24,7 +24,7 @@ jobs:
         run: |
           mkdir -p reports screenshots
 
-      - name: Execute Selenium Test Suite (360 Test Cases)
+      - name: Execute Selenium Test Suite 
         run: |
           echo "TestCase,Status,ExecutionTime(ms)" > reports/selenium_results.csv
 
